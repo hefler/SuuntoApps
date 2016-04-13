@@ -1,0 +1,14 @@
+fastestPace = 6;
+slowestPace = 9;
+RESULT = SUUNTO_PACE / (1 +(9 *(SUUNTO_ALTI_DIFF[4] / ((SUUNTO_DISTANCE)*1000))));
+/*Too fast*/
+if(RESULT < fastPace){
+  Suunto.alarmBeep();
+}
+/*Too slow*/
+if (RESULT > slowPace){
+  Suunto.alarmBeep();
+  Suunto.light();
+}
+/*Result is multiplied by 60 to give the exhibit in a time fashion*/
+RESULT = RESULT*60;
