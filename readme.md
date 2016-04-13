@@ -1,4 +1,4 @@
-#Suunto - Easy Run GAP
+#Suunto - Easy Run GAP (Grade Adjusted Pace)
 This is an app for Suunto watches which helps you keeping your pace more constant alerting you if you are running too fast or too slow.
 
 ##Installing
