@@ -1,7 +1,7 @@
 var gelCarbsG = 22;
 /*3 hours = 10800 seconds*/
 if(SUUNTO_DURATION < 10800) {
-	RESULT = SUUNTO_USER_WEIGHT * 1 / gelCarbsG;
+	RESULT = SUUNTO_USER_WEIGHT / gelCarbsG;
 } else {
 	RESULT = SUUNTO_USER_WEIGHT * 0.7 / gelCarbsG;
 }

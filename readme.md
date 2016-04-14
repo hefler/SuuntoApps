@@ -3,6 +3,7 @@ A collection of apps used on Suunto watches.
 
 ##App \#1 - Easy Run GAP (Grade Adjusted Pace)
 This helps you keeping your pace more constant, alerting you if you are running too fast or too slow.
+http://www.movescount.com/apps/app10841954-Easy_Run_-_GAP
 
 ###Settings/Variables
 By default `fastestPace` is set to `6` and `slowestPace` is set to `9`. Those values are expressed in **min/km** change then according to your needs.
@@ -21,6 +22,7 @@ By default `fastestPace` is set to `6` and `slowestPace` is set to `9`. Those va
 
 ##App \#2 - Top-up Carbs Countdown
 Using your body weight it's established how often you should take your next gel (carbs). When it is time to top-up you get an beep alarm.
+http://www.movescount.com/apps/app10847076-Top-up_Carbs_Countdown
 
 ###Settings/Variables
 Make sure you have correct weight in the Suunto profile. Change `gelCarbsG = 22;` to the amount of carbohydrate your gel/bar contains.
@@ -39,6 +41,7 @@ Make sure you have correct weight in the Suunto profile. Change `gelCarbsG = 22;
 
 ##App \#3 - Top-up Carbs (gel/h)
 Based on your weight it's calculated the amount of gels (carbs) you should take per hour.
+http://www.movescount.com/apps/app10847005-Top-up_Carbs_(gelh)
 
 ###Settings/Variables
 Make sure you have correct weight in the Suunto profile. Change `gelCarbsG = 22;` to the amount of carbohydrate your gel/bar contains.
