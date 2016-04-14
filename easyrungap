@@ -1,5 +1,5 @@
-fastestPace = 6;
-slowestPace = 9;
+var fastestPace = 6;
+var slowestPace = 9;
 RESULT = SUUNTO_PACE / (1 +(9 *(SUUNTO_ALTI_DIFF[4] / ((SUUNTO_DISTANCE)*1000))));
 /*Too fast*/
 if(RESULT < fastPace){

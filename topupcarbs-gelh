@@ -1,0 +1,11 @@
+var gelCarbsG = 22;
+/*3 hours = 10800 seconds*/
+if(SUUNTO_DURATION < 10800) {
+	RESULT = SUUNTO_USER_WEIGHT * 1 / gelCarbsG;
+} else {
+	RESULT = SUUNTO_USER_WEIGHT * 0.7 / gelCarbsG;
+}
+/*
+References:
+http://running.competitor.com/2014/04/inside-the-magazine/the-long-run/the-long-run-eating-on-the-run_28754
+ */

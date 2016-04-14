@@ -1,0 +1,18 @@
+var gelCarbsG = 22;
+var carbIntakeDuration = 1;
+if(SUUNTO_DURATION > 10800){
+  carbIntakeDuration = 0.7;
+}
+var gelsPerHour = SUUNTO_USER_WEIGHT * carbIntakeDuration / gelCarbsG;
+/*glycogen reserves last 60 to 90 minutes.
+gelEvery is in seconds. Therefore 45000 = 1.25 hour is the average 1 - 1.5 h*/
+var gelEvery = Suunto.round(4500/gelsPerHour);
+RESULT = (gelEvery - Suunto.mod(SUUNTO_DURATION, gelEvery));
+if( RESULT == gelEvery && SUUNTO_DURATION > 0){
+  Suunto.alarmBeep();
+}
+
+/*
+References:
+http://running.competitor.com/2014/04/inside-the-magazine/the-long-run/the-long-run-eating-on-the-run_28754#6QOCFdz3XUm1ivAp.99
+*/
