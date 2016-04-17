@@ -28,15 +28,16 @@ http://www.movescount.com/apps/app10847076-Top-up_Carbs_Countdown
 Make sure you have correct weight in the Suunto profile. Change `gelCarbsG = 22;` to the amount of carbohydrate your gel/bar contains.
 
 ####Compatibility
-- Ambit *(size 43%)* **NOT COMPATIBLE**
-- Ambit2 S *(size 21%)*
-- Ambit2 *(size 21%)*
-- Ambit3 Peak *(size 21%)*
-- Ambit3 Sport *(size 21%)*
-- Ambit2 R *(size 21%)*
-- Ambit3 Run *(size 21%)*
-- Traverse *(size 21%)*
+- Ambit *(size 45%)* **NOT COMPATIBLE**
+- Ambit2 S *(size 22%)*
+- Ambit2 *(size 22%)*
+- Ambit3 Peak *(size 22%)*
+- Ambit3 Sport *(size 22%)*
+- Ambit2 R *(size 22%)*
+- Ambit3 Run *(size 22%)*
+- Traverse *(size 22%)*
 - Ambit3 Vertical *(size 21%)* **NOT COMPATIBLE**
+- Traverse Alpha *(size 22%)*
 
 
 ##App \#3 - Top-up Carbs (gel/h)
