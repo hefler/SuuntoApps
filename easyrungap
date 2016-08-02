@@ -1,6 +1,6 @@
-var fastestPace = 6;
-var slowestPace = 9;
-RESULT = SUUNTO_PACE / (1 +(9 *(SUUNTO_ALTI_DIFF[4] / ((SUUNTO_DISTANCE)*1000))));
+var fastestPace = 5;
+var slowestPace = 10;
+RESULT = SUUNTO_PACE / (1 +(9 *(SUUNTO_ALTI_DIFF[2] / ((SUUNTO_DISTANCE)*1000))));
 /*Too fast*/
 if(RESULT < fastPace){
   Suunto.alarmBeep();
