@@ -4,14 +4,15 @@ Uth–Sørensen–Overgaard–Pedersen VO2Max estimation:
 https://en.wikipedia.org/wiki/VO2_max
 ~3g/kg x hr @ 75% VO2 max
 */
-var beepLength = 10;
 var gelCarbsG = 22;
 var VO2max = 15.3 * (SUUNTO_USER_MAX_HR / SUUNTO_USER_REST_HR);
 var currentVO2max = 15.3 * (SUUNTO_USER_MAX_HR / SUUNTO_AVG_HR);
 var VO2maxPer = currentVO2max / VO2max;
 var carbConsumption = 3 * VO2maxPer / SUUNTO_USER_WEIGHT * SUUNTO_DURATION;
 var gelEvery = Suunto.mod(carbConsumption, gelCarbsG);
-RESULT = gelEvery;
-if( RESULT >= 0 && RESULT <= beepLength && SUUNTO_DURATION > 0 ){
+/* If postfix allowed to concatenate Number + String.*/
+/*postfix = "g "+  (100-Suunto.round(gelEvery/gelCarbsG*100)) + "%";*/
+RESULT = carbConsumption;
+if( gelEvery >= 0 && gelEvery <= 0.35 && SUUNTO_DURATION > 0 && carbConsumption > gelCarbsG ){
   Suunto.alarmBeep();
 }
