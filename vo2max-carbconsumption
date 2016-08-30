@@ -13,6 +13,6 @@ var gelEvery = Suunto.mod(carbConsumption, gelCarbsG);
 /* If postfix allowed to concatenate Number + String.*/
 /*postfix = "g "+  (100-Suunto.round(gelEvery/gelCarbsG*100)) + "%";*/
 RESULT = carbConsumption;
-if( gelEvery >= 0 && gelEvery <= 0.35 && SUUNTO_DURATION > 0 && carbConsumption > gelCarbsG ){
+if( gelEvery >= 0 && gelEvery <= 0.22 && SUUNTO_DURATION > 0 && carbConsumption > gelCarbsG ){
   Suunto.alarmBeep();
 }

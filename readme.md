@@ -57,3 +57,14 @@ Make sure you have correct weight in the Suunto profile. Change `gelCarbsG = 22;
 - Ambit3 Run *(size 18%)*
 - Traverse *(size 18%)*
 - Ambit3 Vertical *(size 18%)*
+
+##App \#4 - VO2Max Carbs Consumption Refuel Beep
+Count the carbohydrates consumption based on VO2 Max output (requires a HR sensor). Every time the consumed amount from a supplement's reached the watch will beep telling that's time to refuel.
+http://www.movescount.com/apps/app11095996-VO2Max_Carbs_Consumption_Refuel_Beep
+
+###Settings/Variables
+Make sure you have correct weight, max HR and rest HR in the Suunto profile. Also adjust `gelCarbsG` variable to the carbs value of your supplement.
+
+####Compatibility
+- Suunto removed their app compatibility testing.
+- Ambit3 Peak *locally tested*
