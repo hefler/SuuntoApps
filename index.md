@@ -1,14 +1,70 @@
-### Welcome to GitHub Pages.
-This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here [using GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/), select a template crafted by a designer, and publish. After your page is generated, you can check out the new `gh-pages` branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.
+# Suunto Ambit/Traverse Apps
+A collection of apps used on Suunto watches.
 
-### Designer Templates
-We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.
+## App \#1 - Easy Run GAP (Grade Adjusted Pace)
+This helps you keeping your pace more constant, alerting you if you are running too fast or too slow.
+http://www.movescount.com/apps/app10841954-Easy_Run_-_GAP
 
-### Creating pages manually
-If you prefer to not use the automatic generator, push a branch named `gh-pages` to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.
+### Settings/Variables
+By default `fastestPace` is set to `6` and `slowestPace` is set to `9`. Those values are expressed in **min/km** change then according to your needs.
 
-### Authors and Contributors
-You can @mention a GitHub username to generate a link to their profile. The resulting `<a>` element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (@defunkt), PJ Hyett (@pjhyett), and Tom Preston-Werner (@mojombo) founded GitHub.
+#### Compatibility
+- Ambit *(size 48%)*
+- Ambit2 S *(size 23%)*
+- Ambit2 *(size 23%)*
+- Ambit3 Peak *(size 23%)*
+- Ambit3 Sport *(size 23%)*
+- Ambit2 R *(size 23%)*
+- Ambit3 Run *(size 23%)*
+- Traverse *(size 23%)*
+- Ambit3 Vertical *(size 23%)*
 
-### Support or Contact
-Having trouble with Pages? Check out our [documentation](https://help.github.com/pages) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+## App \#2 - Top-up Carbs Countdown
+Using your body weight it's established how often you should take your next gel (carbs). When it is time to top-up you get an beep alarm.
+http://www.movescount.com/apps/app10847076-Top-up_Carbs_Countdown
+
+### Settings/Variables
+Make sure you have correct weight in the Suunto profile. Change `gelCarbsG = 22;` to the amount of carbohydrate your gel/bar contains.
+
+#### Compatibility
+- Ambit *(size 45%)* **NOT COMPATIBLE**
+- Ambit2 S *(size 22%)*
+- Ambit2 *(size 22%)*
+- Ambit3 Peak *(size 22%)*
+- Ambit3 Sport *(size 22%)*
+- Ambit2 R *(size 22%)*
+- Ambit3 Run *(size 22%)*
+- Traverse *(size 22%)*
+- Ambit3 Vertical *(size 21%)* **NOT COMPATIBLE**
+- Traverse Alpha *(size 22%)*
+
+
+##App \#3 - Top-up Carbs (gel/h)
+Based on your weight it's calculated the amount of gels (carbs) you should take per hour.
+http://www.movescount.com/apps/app10847005-Top-up_Carbs_(gelh)
+
+###Settings/Variables
+Make sure you have correct weight in the Suunto profile. Change `gelCarbsG = 22;` to the amount of carbohydrate your gel/bar contains.
+
+#### Compatibility
+- Ambit *(size 38%)*
+- Ambit2 S *(size 18%)*
+- Ambit2 *(size 18%)*
+- Ambit3 Peak *(size 18%)*
+- Ambit3 Sport *(size 18%)*
+- Ambit2 R *(size 18%)*
+- Ambit3 Run *(size 18%)*
+- Traverse *(size 18%)*
+- Ambit3 Vertical *(size 18%)*
+
+## App \#4 - VO2Max Carbs Consumption Refuel Beep
+Count the carbohydrates consumption based on VO2 Max output (requires a HR sensor). Every time the consumed amount from a supplement's reached the watch will beep telling that's time to refuel.
+http://www.movescount.com/apps/app11095996-VO2Max_Carbs_Consumption_Refuel_Beep
+
+### Settings/Variables
+Make sure you have correct weight, max HR and rest HR in the Suunto profile. Also adjust `gelCarbsG` variable to the carbs value of your supplement.
+
+#### Compatibility
+- Suunto removed their app compatibility testing.
+- Ambit3 Peak *locally tested*
