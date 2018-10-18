@@ -1,0 +1,8 @@
+title: SuuntoApps
+description: A collection of apps used on Suunto watches.
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-minimal
+
+gems:
+  - jekyll-mentions
