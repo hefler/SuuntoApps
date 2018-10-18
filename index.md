@@ -40,11 +40,11 @@ Make sure you have correct weight in the Suunto profile. Change `gelCarbsG = 22;
 - Traverse Alpha *(size 22%)*
 
 
-##App \#3 - Top-up Carbs (gel/h)
+## App \#3 - Top-up Carbs (gel/h)
 Based on your weight it's calculated the amount of gels (carbs) you should take per hour.
 http://www.movescount.com/apps/app10847005-Top-up_Carbs_(gelh)
 
-###Settings/Variables
+### Settings/Variables
 Make sure you have correct weight in the Suunto profile. Change `gelCarbsG = 22;` to the amount of carbohydrate your gel/bar contains.
 
 #### Compatibility
